@@ -24,12 +24,14 @@
 }
 
 
-
-
-/* .parentDiv{
-    width: 100%;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 49%, rgba(58,141,222,1) 50%)
-    ;} */
-
-    
+  #img-div{
+        transition: transform 0.3s;
+      }
+      
+      #img-div:hover {
+        transform: scale(1.03);
+      }
+      
+      #img-div i {
+        transition: opacity 0.6s;
+      }
